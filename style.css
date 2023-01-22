@@ -1,0 +1,65 @@
+body{
+
+    background: #ffffff;
+    transition: 0.5s;
+}
+body.anyName{
+
+    background-color: #1e1e1e;
+    color: antiquewhite;
+}
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin: auto;
+    margin-top: 50px;
+}
+#iconStyle{
+    font-size: 150px;
+}
+#main{
+
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    margin-top: 200px;
+}
+#btnDarkMode{
+
+
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+    color: rgb(197, 197, 197);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    transition: 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40pt;
+}#btnDarkMode:hover{
+
+    transform: scale(1.1);
+}
+#btnDarkMode.anyBtn{
+
+    background: linear-gradient(145deg, #1e1e1e, #232323);
+    box-shadow:  20px 20px 60px #1c1c1c,
+                 -20px -20px 60px #262626;
+    color: #e6e6e6;
+}
+#btnDarkMode.anyBtn:before{
+
+    content: "";
+}
+#btnDarkMode:after{
+
+    content: "";
+}
+#btnDarkMode.anyBtn:after{
+
+    content: "";
+}
